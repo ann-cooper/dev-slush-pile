@@ -1,3 +1,5 @@
+from pelican_jupyter import markup as nb_markup
+
 AUTHOR = 'Ann Cooper'
 SITENAME = 'Dev Slush Pile'
 SITEURL = ''
@@ -7,6 +9,9 @@ PATH = 'content'
 TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
+
+# JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
+PLUGINS = [nb_markup]
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
@@ -29,3 +34,8 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+# Jupyter
+MARKUP = ('md', 'ipynb')
+# IPYNB_USE_META_SUMMARY = True
+IGNORE_FILES = [".ipynb_checkpoints"]
