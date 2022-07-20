@@ -10,7 +10,6 @@ TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = 'en'
 
-# JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 PLUGINS = [nb_markup]
 
 # Feed generation is usually not desired when developing
@@ -37,5 +36,4 @@ DEFAULT_PAGINATION = 10
 
 # Jupyter
 MARKUP = ('md', 'ipynb')
-# IPYNB_USE_META_SUMMARY = True
 IGNORE_FILES = [".ipynb_checkpoints"]
