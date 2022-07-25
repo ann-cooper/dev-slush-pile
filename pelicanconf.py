@@ -1,14 +1,14 @@
 from pelican_jupyter import markup as nb_markup
 
-AUTHOR = 'Ann Cooper'
-SITENAME = 'Dev Slush Pile'
-SITEURL = ''
+AUTHOR = "Ann Cooper"
+SITENAME = "Dev Slush Pile"
+SITEURL = ""
 
-PATH = 'content'
+PATH = "content"
 
-TIMEZONE = 'America/New_York'
+TIMEZONE = "America/New_York"
 
-DEFAULT_LANG = 'en'
+DEFAULT_LANG = "en"
 
 PLUGINS = [nb_markup]
 
@@ -20,19 +20,19 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Sean Harrison', 'https://kruxia.gitlab.io/goodtech-is/'),
-         ('The Caktus Group', 'https://www.caktusgroup.com/blog/'),
-         )
+LINKS = (
+    ("Sean Harrison", "https://kruxia.gitlab.io/goodtech-is/"),
+    ("The Caktus Group", "https://www.caktusgroup.com/blog/"),
+)
 
 # Social widget
-SOCIAL = (('Nothing here yet', '#'),
-          )
+SOCIAL = (("Nothing here yet", "#"),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 # Jupyter
-MARKUP = ('md', 'ipynb')
+MARKUP = ("md", "ipynb")
 IGNORE_FILES = [".ipynb_checkpoints"]
