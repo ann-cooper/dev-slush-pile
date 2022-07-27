@@ -63,7 +63,7 @@ serve-global:
 	"$(PELICAN)" -l "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS) -b $(SERVER)
 
 publish:
-	"$(PELICAN)" "$(INPUTDIR)" -s "$(PUBLISHCONF)"
+	"$(PELICAN)" "$(INPUTDIR)" -s "$(CONFFILE)"
 
 devserver:
 	"$(PELICAN)" -lr "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(CONFFILE)" $(PELICANOPTS)
