@@ -1,6 +1,6 @@
 Title: Starting a blog
 Author: AC
-Date: 2022-07-25
+Date: 2022-07-26
 Tags: pelican, tutorials
 Slug: working-with-submodules
 Summary: How to update a submodule and the superproject
@@ -18,7 +18,7 @@ In the superproject's `.git/hooks/pre-push`
 #!/bin/bash
 
 echo "Starting pre-push"
-lastcommit=`git log origin/main -1 --oneline`
+lastcommit=`git log -1 --oneline`
 echo "Last commit: ${lastcommit} ... now running make publish"
 make publish
 cd output && git add -A . && git commit -m "$lastcommit" && git push origin main
@@ -27,6 +27,7 @@ echo "pwd: $(pwd)"
 git submodule update --recursive
 exit 0
 ```
+- Note re git log: `git log -1 --oneline` will get the current commit message that hasn't been pushed to main, while `git log origin/main -1 --oneline` will get the most recent commit message that has already been pushed to main.
 
 Now, I can do a workflow where I write a post in the superproject's `/content` directory, and do:
 ``` 
