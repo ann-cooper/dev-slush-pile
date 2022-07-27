@@ -12,3 +12,7 @@ I used the project setup and static file publishing steps from [this Pelican tut
 For notebook support, [the pelican-jupyter package](https://pypi.org/project/pelican-jupyter/) was easy to setup. I'm using "markup mode", which involves adding a few lines to the `pelicanconf.py` file, and I'm using metadata files to describe the notebook instead of putting that information in a cell inside the notebook.  
 
 Here we go!
+
+Edit: 
+
+The `pre-push.sh` didn't work how I thought it was meant to, so I changed it a little and created a pre-push hook at `.git/hooks/pre-push`
