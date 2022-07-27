@@ -15,4 +15,7 @@ Here we go!
 
 Edit: 
 
-The `pre-push.sh` didn't work how I thought it was meant to, so I changed it a little and created a pre-push hook at `.git/hooks/pre-push`
+The `pre-push.sh` didn't work how I thought it was meant to, so I changed it a little:
+
+- `pre-push.sh` to just `pre-push`
+- set as executable witn `chmod 766 .git/hooks/pre-push`
