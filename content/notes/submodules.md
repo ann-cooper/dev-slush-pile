@@ -5,9 +5,6 @@ Tags: pelican, tutorials
 Slug: working-with-submodules
 Summary: How to update a submodule and the superproject
 
-https://stackoverflow.com/questions/5814319/git-submodule-push
-https://stackoverflow.com/questions/10848191/git-submodule-commit-hooks
-https://dopeddude.medium.com/git-submodule-with-git-hooks-for-scalable-repos-50924f969937
 
 I'm okay with git -- that is, I interact with it on the command line, I know what's going on at a high level, and I can (if I brace myself) do an interactive rebase. I don't have a deep understanding of it, and I mostly do basic stuff with it. This is the first time I've tried to do much with submodules, so I've been looking into getting the output (a submodule) correctly pushed and updated when I'm pushing new posts to the superproject.
 
