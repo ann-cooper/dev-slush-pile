@@ -1,7 +1,7 @@
-Title: Starting a blog
+Title: Publishing posts to an output submodule
 Author: AC
 Date: 2022-07-26
-Tags: pelican, tutorials
+Tags: submodules
 Slug: working-with-submodules
 Summary: How to update a submodule and the superproject
 
