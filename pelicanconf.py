@@ -1,4 +1,5 @@
 from pelican_jupyter import markup as nb_markup
+from pelican.themes import notmyidea
 
 AUTHOR = "Ann Cooper"
 SITENAME = "Dev Slush Pile"
@@ -13,7 +14,7 @@ DEFAULT_LANG = "en"
 PLUGINS = [nb_markup]
 
 THEME = "notmyidea" 
-
+THEME_STATIC_PATHS = ['notmyidea/static']
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
