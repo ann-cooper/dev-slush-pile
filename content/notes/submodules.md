@@ -3,7 +3,7 @@ Author: AC
 Date: 2022-07-26
 Tags: submodules
 Slug: working-with-submodules
-Summary: How to update a submodule and the superproject
+Summary: Update a submodule
 
 
 I'm okay with git -- that is, I interact with it on the command line, I know what's going on at a high level, and I can (if I brace myself) do an interactive rebase. I don't have a deep understanding of it, and I mostly do basic stuff with it. This is the first time I've tried to do much with submodules, so I've been looking into getting the output (a submodule) correctly pushed and updated when I'm pushing new posts to the superproject.
