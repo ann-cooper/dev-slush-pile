@@ -12,6 +12,8 @@ DEFAULT_LANG = "en"
 
 PLUGINS = [nb_markup]
 
+THEME = "notmyidea" 
+
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
