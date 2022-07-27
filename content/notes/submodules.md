@@ -18,7 +18,12 @@ echo "Starting pre-push"
 lastcommit=`git log -1 --oneline`
 echo "Last commit: ${lastcommit} ... now running make publish"
 make publish
-cd output && git add -A . && git commit -m "$lastcommit" && git push origin main
+cd output
+echo "In $(pwd) with git status $(git status)"
+git add -A .
+git commit -m "${lastcommit}"
+echo "git status $(git status)"
+git push origin main
 cd ..
 echo "pwd: $(pwd)"
 git submodule update --remote --merge
