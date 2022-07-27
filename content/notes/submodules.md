@@ -21,7 +21,7 @@ make publish
 cd output && git add -A . && git commit -m "$lastcommit" && git push origin main
 cd ..
 echo "pwd: $(pwd)"
-git submodule update --recursive
+git submodule update --remote --merge
 exit 0
 ```
 - Note re git log: `git log -1 --oneline` will get the current commit message that hasn't been pushed to main, while `git log origin/main -1 --oneline` will get the most recent commit message that has already been pushed to main.
