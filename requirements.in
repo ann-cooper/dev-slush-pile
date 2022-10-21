@@ -1,7 +1,7 @@
 pelican
 pandas
 numpy
-jupyter
+#jupyter
 nbconvert
 ipython
 beautifulsoup4
