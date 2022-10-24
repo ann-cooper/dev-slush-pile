@@ -20,7 +20,12 @@ Summary: Ways to approach debugging
 4. pdb  
     
     The built-in Python debugger is very useful. It requires no set up, no special settings in your code editor, and allows you to explore the state of the variables at any point in the code based on where you insert the breakpoint. The way to use it is to put `breakpoint()` in your code (for Python 3.7+) at the line where you want to check on the state of things, then run the script, call the method, run the test, etc., and when it reaches the breakpoint, it will drop you into the pdb interactive shell, where you can explore things like:
+
     - The local variables and their values as this point of the code with `locals()`
+
     - The values of any available variable with pretty print, which is built-in: `pp my_var.__dict__`
+
     - Step through the code line by line with `n`
+
     - Run to the next breakpoint with `c`
+    
