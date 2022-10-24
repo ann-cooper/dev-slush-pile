@@ -1,7 +1,7 @@
 Title: Thinking about debugging
 Author: AC
 Date: 2022-08-04
-Tags: debugging, techniques, posts
+Tags: debugging, techniques
 Slug: debugging-thinking
 Summary: Ways to approach debugging
 
