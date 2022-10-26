@@ -7,7 +7,7 @@ Summary: Ways to approach debugging
 
 1. Write down the problem as you understand it:  
     
-    Don't underestimate the power of communication! Writing helps to focus thinking: how many times have I answered my own question as soon as I typed it out to a colleague?
+    Don't underestimate the power of communication! Writing helps to focus thinking: if you've ever answered your own question as soon as you explained it to a colleague, you've seen this working.
 
 2. Ask yourself: "How would I write this code if this were the behavior I wanted?"  
     
@@ -19,7 +19,7 @@ Summary: Ways to approach debugging
 
 4. pdb  
     
-    The built-in Python debugger is very useful. It requires no set up, no special settings in your code editor, and allows you to explore the state of the variables at any point in the code based on where you insert the breakpoint. The way to use it is to put `breakpoint()` in your code (for Python 3.7+) at the line where you want to check on the state of things, then run the script, call the method, run the test, etc., and when it reaches the breakpoint, it will drop you into the pdb interactive shell, where you can explore things like:
+    The built-in Python debugger is very useful. It requires no set up, no special settings in your code editor, and allows you to explore the state of the variables at any point in the code based on where you insert the breakpoint. The way to use it is to put `breakpoint()` in your code (for Python 3.7+) at the line where you want to check on the state of things, then run the script / call the method / run the test / etc., and when it reaches the breakpoint, it will drop you into the pdb interactive shell, where you can explore things like:
 
     - The local variables and their values as this point of the code with `locals()`
 
