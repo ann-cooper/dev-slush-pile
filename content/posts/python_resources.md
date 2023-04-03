@@ -1,4 +1,11 @@
-# Python Resources
+Title: Python Resources
+Author: AC
+Date: 2023-04-03
+Tags: resources
+Slug: python-resources
+Summary: A collection of resources for working in Python
+
+
 I first put together a Python resources page when I was leading a data engineering department, and this list is an updated and expanded take on that idea. It isn't meant to be comprehensive in any way, but I think it's a starting point for some of the major things that software and data engineers who work in Python need to know.
 
 ## Books and blogs
