@@ -12,7 +12,7 @@ I first put together a Python resources page when I was leading a data engineeri
 ### General
 - [Dive Into Python3](https://diveintopython3.net/)
 - [Real Python](https://realpython.com/tutorials/basics/)
-- [Hynek Schlawak](https://hynek.me/articles/)
+- [Hynek Schlawack](https://hynek.me/articles/)
 - [The Impostor's Handbook](https://bigmachine.io/products/the-imposters-handbook/)
 
 ### Topics
@@ -83,7 +83,7 @@ I first put together a Python resources page when I was leading a data engineeri
 
 ## Memory
 - [Official docs on memory management](https://docs.python.org/3/c-api/memory.html)
-- [Itamar Turner-Trauring on Measuring Memory usage in Python](https://pythonspeed.com/articles/measuring-memory-python/)
+- [Itamar Turner-Trauring on Memory usage in Python](https://pythonspeed.com/datascience/#memory)
 - [Real Python Memory Management article](https://realpython.com/python-memory-management/)
 
 
