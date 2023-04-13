@@ -24,8 +24,7 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 LINKS = (
-    ("Sean Harrison", "https://kruxia.gitlab.io/goodtech-is/"),
-    ("The Caktus Group", "https://www.caktusgroup.com/blog/"),
+
 )
 
 # Social widget
