@@ -31,7 +31,7 @@ I first put together a Python resources page when I was leading a data engineeri
 
 ## Idiomatic Python
 - [The Hitchhiker's Guide to Python](https://docs.python-guide.org/)
-- [A collection of Python best practices posts from Real Python](https://docs.python-guide.org/)
+- [A collection of Python best practices posts from Real Python](https://realpython.com/tutorials/best-practices/)
 
 ## Style
 - [PEP 8](https://www.python.org/dev/peps/pep-0008/)
@@ -63,7 +63,7 @@ I first put together a Python resources page when I was leading a data engineeri
 - [Functional Programming learning path](https://realpython.com/learning-paths/functional-programming/)
 
 ## Testing
-- [Quick tips](https://pybit.es/pytest-coding-100-tests.html)
+- [Quick tips](https://pybit.es/articles/pytest-tips/) from Pybites.
 ### Test runners & frameworks
 - [Pytest, the Pytest runner can run tests written with unittest](https://docs.pytest.org/en/stable/)
 
