@@ -1,9 +1,8 @@
 pelican
 pandas
 numpy
-#jupyter
 nbconvert
 ipython
 beautifulsoup4
 pelican-jupyter
-jinja2==3.0.3
+jinja2

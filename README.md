@@ -12,7 +12,7 @@ Put these in the `.in` files. You can also pin the versions in the `.in` file if
 ### How to use the requirements file
 - Install the `.txt` file:
 `pip install -r requirements.txt`
-- Note that the pip-tools docs recommend using `pip-sync` to install the dependencies in your virtualenv, that functionality can be flaky, so it's easier to just use pip as shown above.
+- Note that the pip-tools docs recommend using `pip-sync` to install the dependencies in your virtualenv, but that functionality can be flaky, so it's easier to just use pip as shown above.
 
 ## Virtual Environments
 
